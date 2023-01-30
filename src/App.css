@@ -1,0 +1,189 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+body {
+  margin: 0;
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  color: yellow;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  font-size: 20;
+  font-weight: 400;
+  color: white;
+  margin-top: 16px;
+}
+
+.waveButton {
+  
+  border: 0;
+
+  border-radius: 5px;
+    background-color: #FFEFD6;
+    border-color: #dcd0bc;
+    color: #0E5E6F;
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+  
+}
+
+.totalwaves {
+  text-align: center;
+  font-size: 30;
+  font-weight: 400;
+  color: white;
+  margin-top: 16px;
+}
+
+.temessages {
+  text-align: left;
+  font-size: 15px;
+  color: yellow;
+  padding: 10px
+  margin: 50px
+  font-weight: 600;
+  background-color : "red"
+}
+
+.messages {
+  border: 1px solid darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+}
+
+.message-item {
+  font-size: 18px;
+  color: yellow;
+  margin-bottom: 5px;
+}
+
+
+.inputmessage {
+  text-align: center;
+  font-size: 22px;
+  color: yellow;
+  font-weight: 600;
+}
+
+.inputbox {
+
+    margin-top: 10px;
+    width: 580px;
+    height: 100px;
+  
+/*   display: flex; */
+  
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    background-color: #fef2dc;
+}
+
+textarea {
+  resize: none;
+  font-size: 20px;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.innwaveButton {
+  text-align: center;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 5px;
+  
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+table.tr {
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.inwaveButton {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 16px;
+  padding: 8px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+   text-align: left;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
